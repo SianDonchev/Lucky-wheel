@@ -1,0 +1,42 @@
+business_user:
+  - id: 1
+    email: 'business1@example.com'
+    signup_date: '2023-01-01'
+    password_hash: 'hash1'
+    phone_number: '1234567890'
+    number_of_offers: 5
+  - id: 2
+    email: 'business2@example.com'
+    signup_date: '2023-01-02'
+    password_hash: 'hash2'
+    phone_number: '0987654321'
+    number_of_offers: 3
+offer:
+  - id: 1
+    description: "Offer 1"
+    prize: 200.00
+    owner_id: 1
+  - id: 2
+    description: "Offer 2"
+    prize: 300.00
+    owner_id: 1
+  - id: 3
+    description: "Offer 3"
+    prize: 400.00
+    owner_id: 1
+  - id: 4
+    description: "Offer 4"
+    prize: 500.00
+    owner_id: 1
+  - id: 5
+    description: "Offer 5"
+    prize: 600.00
+    owner_id: 1
+  - id: 6
+    description: "Offer 6"
+    prize: 800.00
+    owner_id: 1
+  - id: 7
+    description: "Offer 7"
+    prize: 630.00
+    owner_id: 1
